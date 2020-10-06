@@ -91,16 +91,21 @@ textarea {
 
    header,
    footer{
-
+        display:flex;
+        justify-content: center;
+        align-items:center;
    }
 
    /*Header styles*/
 
    header{
+    display:flex;
+    flex-direction: row;
 
    }
 
    header .content-wrapper{
+     display:flex;
 
    }
 
@@ -108,42 +113,78 @@ textarea {
 
    }
 
-   header nav{
+   header nav {
+    display:flex;
+    justify-content: space-around;
+   }
 
+   header nav ul{
+     display:flex;
+     justify-content: space-around;
    }
 
    /*-------Mobile styles - Homepage--------*/
+   
+
+
    .hero-area{
+    display:flex;
+    justify-content: center;
+    align-items:center;
 
    }
 
    aside{
+     display:flex;
+     justify-content: center;
+     align-items:center;
 
    }
 
    .features{
+     display:flex;
+     justify-content: center;
+     align-items: center;
 
    }
 
-   .fontawesome-icon{
+   .features .fontawesome-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 
    }
 
-   .features-item-description{
+    .features .features-item-description{
+      display:flex;
+     justify-content: center;
+     align-items: center;
+
 
    }
 
-   .review{
+   .reviews{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 
    }
 
 
    /*-------Mobile styles-About-------*/
-   .mission{
+   main .mission{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
    }
 
    .map figure{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
    }
 
@@ -156,10 +197,17 @@ textarea {
    }
 
    .faq{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
    }
 
-   .faq-content{
+    .faq .content-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 
    }
 
@@ -178,7 +226,10 @@ textarea {
 
    }
 
-   .social-icons{
+   footer .social-icons{
+     display:flex;
+     justify-content: center;
+     align-items: center;
 
    }
 
