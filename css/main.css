@@ -99,15 +99,16 @@ textarea {
    /*Header styles*/
 
    header{
-    display:flex;
-    flex-direction: row;
-
+    
    }
 
    header .content-wrapper{
-     display:flex;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 
-   }
+
 
    header .header-divider{
 
@@ -120,9 +121,9 @@ textarea {
 
    header nav ul{
      display:flex;
-     justify-content: space-around;
    }
 
+   
    /*-------Mobile styles - Homepage--------*/
    
 
