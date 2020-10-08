@@ -89,65 +89,133 @@ textarea {
 
    /*------Base Header - Footer Styles------*/
 
+
+  
+
    header,
    footer{
-        display:flex;
+        display: flex;
         justify-content: center;
-        align-items:center;
+        align-items: center;
+        flex-flow: row wrap;
    }
 
    /*Header styles*/
 
    header{
-    
-   }
-
-   header .content-wrapper{
-    display:flex;
-    justify-content: center;
-    align-items:center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
 }
 
 
-
-   header .header-divider{
-
-   }
-
    header nav {
-    display:flex;
-    justify-content: space-around;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row wrap;
    }
 
    header nav ul{
-     display:flex;
+    display: flex;
    }
 
+
+   
+   /*-------FOOTER------*/
+
+   footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+ 
+
+   
+   footer .social {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .social-icons{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ 
+  footer .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  footer .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+}
    
    /*-------Mobile styles - Homepage--------*/
    
-
-
    .hero-area{
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items:center;
+    flex-flow: row wrap;
+   }
 
+   .hero-area h1{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
    }
 
    aside{
-     display:flex;
-     justify-content: center;
-     align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
-   }
+  aside .form-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
+  aside .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
    .features{
-     display:flex;
-     justify-content: center;
-     align-items: center;
-
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
    }
+
+   .features h2{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+   }
+
+   .features p{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+   }
+
 
    .features .fontawesome-icon{
     display:flex;
@@ -158,29 +226,43 @@ textarea {
    }
 
     .features .features-item-description{
-      display:flex;
-     justify-content: center;
-     align-items: center;
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
 
    }
 
    .reviews{
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
+  }
 
-
-   }
-
-
+  .reviews .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
    /*-------Mobile styles-About-------*/
+   
    main .mission{
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-flow: row wrap;
    }
+
+   contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
    .map figure{
     display:flex;
@@ -193,14 +275,12 @@ textarea {
 
    /*-------Mobile styles-faq-------*/ 
 
-   main{
-
-   }
-
+  
    .faq{
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 
    }
 
@@ -208,35 +288,16 @@ textarea {
     display:flex;
     justify-content: center;
     align-items: center;
-
-
+    flex-flow: row wrap;
    }
 
-
-   /*-------FOOTER------*/
-
-   footer{
-
+   .faq .faq-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
-   .footer-content{
-
-   }
-
-   .social{
-
-   }
-
-   footer .social-icons{
-     display:flex;
-     justify-content: center;
-     align-items: center;
-
-   }
-
-   .copyright{
-
-   }
 
 
 /* ==========================================================================
