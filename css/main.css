@@ -88,8 +88,11 @@ textarea {
    ========================================================================== */
 
    /*------Base Header - Footer Styles------*/
+  html{
+   width: 360px;
 
-
+  }
+   
   
 
    header,
@@ -98,6 +101,7 @@ textarea {
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
+
    }
 
    /*Header styles*/
@@ -111,6 +115,7 @@ textarea {
 
 
    header nav {
+        width:60%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -119,6 +124,7 @@ textarea {
 
    header nav ul{
     display: flex;
+    width:45%;
    }
 
 
@@ -129,7 +135,7 @@ textarea {
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-flow: row wrap;
    }
  
 
@@ -142,7 +148,7 @@ textarea {
 
   footer .social-icons{
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
  }
 
@@ -151,17 +157,24 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-flow: row wrap;
 }
 
   footer .footer-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
+    flex-flow: row wrap;
+  }
 
-}
+  footer .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 59%;
+
+  }
    
    /*-------Mobile styles - Homepage--------*/
    
@@ -169,6 +182,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    width:100%
    }
 
    .hero-area h1{
@@ -177,6 +191,7 @@ textarea {
     flex-flow: row wrap;
    }
 
+   
    aside{
     display: flex;
     justify-content: center;
@@ -184,11 +199,16 @@ textarea {
     flex-flow: row wrap;
   }
 
+  aside .content-wrapper{
+    width:100%
+  }
+
   aside .form-description{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width:84%;
   }
 
   aside .form{
@@ -196,40 +216,30 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width:100%;
   }
   
    .features{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    width:89%;
    }
 
    .features h2{
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
-   }
+    width:85%;
+  }
 
-   .features p{
+  
+
+   .features article {
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
-   }
-
-
-   .features .fontawesome-icon{
-    display:flex;
-    justify-content: center;
     align-items: center;
-
-
-   }
-
-    .features .features-item-description{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
+    flex-flow: row wrap;
+    width:60%;
 
    }
 
@@ -238,13 +248,19 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width:89%;
+  }
+
+  .reviews h3{
+    width:50%;
   }
 
   .reviews .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-flow: row wrap;
+    width:80%;
   }
   
   
@@ -257,13 +273,7 @@ textarea {
     flex-flow: row wrap;
    }
 
-   contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-
+  
    .map figure{
     display:flex;
     justify-content: center;
