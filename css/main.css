@@ -235,7 +235,9 @@ textarea {
     width:100%;
   }
 
- 
+  aside p{
+    width:85%;
+  }
   
    .features{
     display: flex;
@@ -270,11 +272,11 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    width:89%;
+    width:85%;
   }
 
   .reviews h3{
-    width:50%;
+    width:75%;
   }
 
   .reviews .content-wrapper{
