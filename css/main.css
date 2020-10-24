@@ -90,7 +90,10 @@ textarea {
    /*------Base Header - Footer Styles------*/
   
   html{
-    width: 360px;
+    width: 365px;
+  }
+  body{
+    margin: 0 auto;
   }
 
    header,
